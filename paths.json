@@ -5,6 +5,6 @@
     "/content/piyush-eds-site/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/piyush-eds-site/"
   ]
 }
