@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/universal-editor-getting/:/",
-    "/content/universal-editor-getting/configuration:/.helix/config.json",
-    "/content/universal-editor-getting/metadata:/metadata.json"
+    "/content/piyush-eds-site/:/",
+    "/content/piyush-eds-site/configuration:/.helix/config.json",
+    "/content/piyush-eds-site/metadata:/metadata.json"
   ],
   "includes": [
     "/content/aem-boilerplate/"
