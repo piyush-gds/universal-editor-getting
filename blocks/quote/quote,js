@@ -8,7 +8,7 @@ export default function decorate(block) {
   
   
 
-  const blockquote = document.createElement('blockquote');
+  const blockquote = document.createElement('h1');
   blockquote.textContent = quoteWrapper.textContent.trim();
   quoteWrapper.replaceChildren(blockquote);
 }
