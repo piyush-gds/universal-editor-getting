@@ -39,12 +39,5 @@
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "quote",
-      "components": [
-        "quote"
-      ]
-    }
-  ]
+  "filters": []
 }
