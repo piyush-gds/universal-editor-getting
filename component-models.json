@@ -216,22 +216,29 @@
     ]
   },
   {
-  "id": "quote",
-  "fields": [
-     {
-       "component": "richtext",
-       "name": "quote",
-       "value": "",
-       "label": "Quote",
-       "valueType": "string"
-     },
-     {
-       "component": "text",
-       "valueType": "string",
-       "name": "author",
-       "label": "Author",
-       "value": ""
-     }
-   ]
-}
+    "id": "profile",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "personName",
+        "label": "Person Name",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "designation",
+        "label": "Designation",
+        "value": ""
+      }
+    ]
+  }
 ]
