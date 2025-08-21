@@ -1,10 +1,12 @@
 export default function decorate(block) {
-  const [quoteWrapper] = block.children;
+  const quoteText = block.children[0].textContent.trim();
+  const authorText = block.children[1].textContent.trim();
 
-  console.log("block.children: ", block.children);
-  console.log("quoteWrapper: ", quoteWrapper);
+  const quotePara = document.createElement("p");
+  quotePara.textContent = quoteText;
 
-  const blockquote = document.createElement("blockquote");
-  blockquote.textContent = quoteWrapper.textContent.trim();
-  quoteWrapper.replaceChildren(blockquote);
+  const authorPara = document.createElement("p");
+  authorPara.textContent = authorText;
+
+  block.replaceChildren(quotePara, authorPara);
 }
