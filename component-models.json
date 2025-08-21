@@ -216,6 +216,32 @@
     ]
   },
   {
+    "id": "profile",
+    "fields": [
+      {
+        "component": "aem-content",
+        "label": "Upload Image",
+        "valueType": "string",
+        "value": "",
+        "name": "uploadImage"
+      },
+      {
+        "component": "text",
+        "label": "Name",
+        "valueType": "string",
+        "value": "",
+        "name": "name"
+      },
+      {
+        "component": "text",
+        "label": "Designation",
+        "valueType": "string",
+        "value": "",
+        "name": "designation"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
