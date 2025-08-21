@@ -1,0 +1,12 @@
+.quote-para {
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+
+.author-para {
+    font-size: 3rem;
+    font-style: italic;
+    color: blue;
+}
