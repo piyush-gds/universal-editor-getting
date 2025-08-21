@@ -227,10 +227,10 @@
       },
       {
         "component": "text",
-        "label": "Name",
+        "label": "Full Name",
         "valueType": "string",
         "value": "",
-        "name": "name"
+        "name": "fullName"
       },
       {
         "component": "text",
