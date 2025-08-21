@@ -1,0 +1,27 @@
+.profileImage {
+    display: block;
+}
+
+.profileImage img {
+    border-radius: 50%;
+    width: 15rem;
+    aspect-ratio: 1;
+}
+
+.fullName {
+    font-size: 3rem;
+    font-weight: bold;
+    color: brown;
+}
+
+.designation {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(222, 121, 121);
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
