@@ -142,6 +142,39 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "text",
+        "label": "Accordion Title",
+        "valueType": "string",
+        "value": "",
+        "name": "accordionTitle"
+      },
+      {
+        "component": "multifield",
+        "label": "Accordion Items",
+        "name": "accordionItems",
+        "fields": [
+          {
+            "component": "text",
+            "label": "Item Title",
+            "valueType": "string",
+            "value": "",
+            "name": "itemTitle"
+          },
+          {
+            "component": "textarea",
+            "label": "Item Content",
+            "valueType": "string",
+            "value": "",
+            "name": "itemContent"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
