@@ -338,6 +338,55 @@
     ]
   },
   {
+    "id": "questionnaire",
+    "fields": [
+      {
+        "component": "text",
+        "name": "questionHeadline",
+        "label": "Questionnaire headline"
+      },
+      {
+        "component": "text",
+        "name": "questionTitle",
+        "label": "Questionnaire title"
+      },
+      {
+        "component": "richtext",
+        "name": "questionnairedescription",
+        "label": "Questionnaire description"
+      },
+      {
+        "component": "aem-content",
+        "name": "questionnaireSpreadsheetPath",
+        "label": "Question Spreadsheet path"
+      },
+      {
+        "component": "text",
+        "name": "startButtonText",
+        "label": "Start button text"
+      },
+      {
+        "component": "richtext",
+        "name": "questionnairefooter",
+        "label": "Questionnaire footer"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "webBackgroundImage",
+        "label": "Web Banner Image",
+        "multi": true
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "mobBackgroundImage",
+        "label": "Mobile Banner Image",
+        "multi": true
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
